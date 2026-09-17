@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: stevedore-pluggy-formatters
+Version: 0.1.0
+Summary: Combined Stevedore and Pluggy example for Python plugins
+Requires-Python: >=3.10
+Requires-Dist: stevedore>=5.0
+Requires-Dist: pluggy>=1.0

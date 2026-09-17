@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: stevedore-formatters
+Version: 0.1.0
+Summary: Stevedore example for Python plugins
+Requires-Python: >=3.10
+Requires-Dist: stevedore>=5.0

@@ -1,0 +1,2 @@
+stevedore>=5.0
+pluggy>=1.0

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stevedore-formatters"
+version = "0.1.0"
+description = "Stevedore example for Python plugins"
+requires-python = ">=3.10"
+dependencies = ["stevedore>=5.0"]
+
+[tool.setuptools]
+packages = ["myapp", "plugins"]
+
+[project.entry-points."myapp.formatters"]
+plain = "plugins.plain:PlainFormatter"
+json = "plugins.json_fmt:JSONFormatter"
+table = "plugins.table:TableFormatter"

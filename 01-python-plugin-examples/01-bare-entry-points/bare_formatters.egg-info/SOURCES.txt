@@ -1,0 +1,12 @@
+pyproject.toml
+bare_formatters.egg-info/PKG-INFO
+bare_formatters.egg-info/SOURCES.txt
+bare_formatters.egg-info/dependency_links.txt
+bare_formatters.egg-info/entry_points.txt
+bare_formatters.egg-info/top_level.txt
+myapp/__init__.py
+myapp/loader.py
+plugins/__init__.py
+plugins/json_fmt.py
+plugins/plain.py
+plugins/table.py

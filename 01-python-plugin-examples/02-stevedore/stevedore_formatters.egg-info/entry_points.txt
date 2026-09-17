@@ -1,0 +1,4 @@
+[myapp.formatters]
+json = plugins.json_fmt:JSONFormatter
+plain = plugins.plain:PlainFormatter
+table = plugins.table:TableFormatter
